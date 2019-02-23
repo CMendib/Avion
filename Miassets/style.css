@@ -1,0 +1,114 @@
+:root {
+  --primary-color: #F2F7F6;
+  --secondary-color: #3C91E6;
+  --background-color:#FAFFFD;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid blue; */
+  /* white-space: nowrap; */
+}
+
+body {
+  /* background-color: red; */
+}
+
+header {
+  background-color: var(--primary-color);
+  height: 100px;
+  width: 100%;
+}
+
+header h1 {
+  text-align: center;
+  margin-top: 31.5px;
+  font-family: Lato;
+}
+
+header img {
+  width: 6%;
+  align: center;
+  margin-left: 600px;
+}
+/* .medios {
+  background-color: blue;
+  border=0;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  height: 60vh;
+
+}
+
+.middle {
+  margin:0 4vw 0;
+}
+
+#izq {
+  width: 54vw;
+  background-color: gray;
+}
+
+#der {
+  width: 37vw;
+  background-color: yellow;
+} */
+
+
+.destinos{
+  /* border: none; */
+  box-sizing: border-box;
+  background-color: var(--background-color);
+  display: inline-block;
+  height: 30vh;
+  width: 70%;
+  vertical-align: top;
+  text-align: center;
+}
+
+.destinofinal {
+  /* border: none; */
+  box-sizing: border-box;
+  background-color: var(--background-color);
+  border-radius: black;
+  display: inline-block;
+  height: 30vh;
+  width: 30%;
+  vertical-align: top;
+}
+
+.ordenes{
+  min-height: 30vh;
+  background-color: white;
+    /* vertical-align: top; */
+}
+
+.destino-orden {
+  background-color: var(--primary-color);
+
+  display: inline-block;
+  border-radius: 4px;
+  margin: 10px 15px;
+  width: 300px;
+}
+
+.destino-orden img {
+  width: 50%;
+}
+
+.mevoya img {
+  width: 30%;
+}
+
+footer{
+  height: 30vh;
+  background-color: gray;
+}
+
+input {
+  font-size: 25px;
+  border-radius: 5px;
+  width: 200px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Viajes</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="viaje.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="Miassets/style.css">
+
+  </head>
+  <body>
+    <header>
+      <h1>Reservas de vuelos</h1>
+      <img src="viaje.png">
+    </header>
+    <!-- <section class = "middle">
+      <section id="izq" class="medios">
+
+      </section><section id="der"  class="medios">
+
+
+
+    </section> -->
+
+    <main>
+      <section class="destinos">
+        <form id="destino-form">
+        <br><br>
+        <label for="destino">Elige tu destino</label>
+        <br>
+        <select name="destino" id="destino">
+            <option value="América">América</option>
+            <option value="Europa">Europa</option>
+            <option value="África">África</option>
+            <option value="Asia">Asia</option>
+            <option value="Oceania">Oceania</option>
+        </select>
+        <br><br><br>
+
+        <label for="fecha">Fecha vuelo</label>
+        <input id="fecha" type="date" name="fecha">
+
+        <br><br><br><br>
+
+          <input type="submit" value="Envía reserva" >
+          <br><br>
+        </form>
+
+      </section><section class="destinofinal">
+                  <ul id="voya"></ul>
+              </section>
+    </main>
+    <section class="ordenes">
+      <ul id="lista"></ul>
+    </section>
+    <footer></footer>
+    <script src="Miassets/scripts.js"></script>
+  </body>
+</html>
